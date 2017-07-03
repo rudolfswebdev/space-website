@@ -1,0 +1,49 @@
+.navbar-inverse
+{
+    position: absolute;
+    width: 100%;
+    border-radius: 0;
+    
+    background: rgba(0,0,0,0.1);
+    border: none;
+    z-index: 999;
+}
+
+.navbar .navbar-nav {
+    
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    background: rgba(0,0,0,0);
+    border-bottom: 3px solid white;
+}
+    
+a:hover
+{
+    transition: 0.1s;
+    border-bottom: 3px solid white;
+}
+a
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+    .navbar-collapse, .navbar-toggle
+{
+    border-radius: 100%;
+}
+
+.icon
+{
+    height:20px;
+    width:20px;
+    background-color: white;
+    border-radius: 100%;
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+	   <title>Space Site</title>
+	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">  
+        <link rel="stylesheet" type="text/css" href="CSS/navbar.css">
+        <link rel="stylesheet" type="text/css" href="CSS/about.css">
+	</head>
+	<body>
+         <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <div class="icon">
+                        </div>
+                    </button>
+      
+                </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a class="active" href="about.html">ABOUT</a></li>
+                    <li><a href="mythology.html">MYTHOLOGY</a></li> 
+                </ul>
+            </div>
+            </div>
+        </nav>
+         <!-- Navbar -->
+        <div class="wrapper container">
+            <div class="row">
+                <h1 class="display-1" style="display: none;">"Universe is in no obligation to make sense to you"</h1>
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </div>
+            <div class="text-container container-fluid">
+            	<p>Where did everything come from?
+				Every culture has its own origin story. They may be very short anecdotes. Or they might be elaborate narratives that help explain the mysteries of our existence.
+				Big History is an origin story like many others. But, instead of being rooted in a specific culture or geography, Big History aims to account for everything we know and that which we have yet to discover. Contributors include philosophers, scientists, scholars, adventurers, and curious learners of all stripes who weave a story of enormous scale.
+				And like all origin stories below, the Big History story has developed over time, and will continue to evolve.
+				</p>
+				<p>
+				Try to imagine something unimaginably tiny, unimaginably dense, and unimaginably hot. Then instantaneously, bang! - space, time, and all molecular material explode in a manner far beyond what words can describe.
+				What is known is that, within a few millionths of a second, the Universe expanded at an inconceivable speed. From that expansion, some recognizable subatomic particles and fundamental forces formed. Then the Universe cooled dramatically - to about 1 billion degrees Celsius, allowing energy, and then matter, to appear. Much later, after dropping to a cool 1,650 degrees, the first hydrogen and helium atoms formed.
+				A cosmic "Dark Ages" set in for the next 200 million years. This quiet expansion spread more complex atoms and other materials throughout the Universe. The tiny particles drifted apart like a dense puff of smoke, but not uniformly. Those little inconsistencies of distance set the stage for gravity, creating something very complex out of something very simple.
+				</p>
+            </div>
+        </div>
+	</body>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('h1.display-1').slideDown(800);
+        });
+        $(window).scroll(function(){
+    $(".row").css("opacity", 0.9 - $(window).scrollTop() / 500);
+  });
+    </script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>

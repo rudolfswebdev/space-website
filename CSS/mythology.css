@@ -1,0 +1,82 @@
+body{
+
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width: 100%;	
+	font-family: 'Lato', sans-serif;
+
+}
+.active{
+	border-bottom: 3px solid white;
+}
+.wrapper{
+	padding: 0;
+}
+
+#text1{
+	background-color: green;
+	height: 100vh;
+	z-index: -1;
+	width: 50%;
+}
+.row{
+	margin:0;
+  padding:0;
+  background-color:limegreen;
+  overflow: hidden;
+}
+.image{
+	height: 100vh;
+	background-color: green;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+	height:100vh;
+	background-color: #01050c;
+	text-align: center;
+	padding-top: 10%;
+
+}
+h1{
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+	color: white;
+}
+p{
+	padding-top: 10%;
+	font-size: 3vh;
+	color:white;
+}
+#image1{
+	background-image: url(https://darkmatterspace.files.wordpress.com/2014/12/milyway-earth_www-fullhdwpp-com_.jpg);
+
+}
+#image2{
+	background-image: url(http://2.bp.blogspot.com/-Vpup0saZCjo/VUUNmwX0f1I/AAAAAAAAAfk/CgMEURGoUEw/s1600/god_of_the_universe_1557653339.jpg);
+}
+#image3{
+	background-image: url(http://www.entity.be/undacova/img/fract_16.png);
+}
+#image4{
+	background-image: url(https://static.tumblr.com/5d1c2fc79aa835332e05b2c10df11959/qnhoieh/fPPna48b3/tumblr_static_1773036.jpg);
+}
+#image5{
+	background-image: url(https://i.ytimg.com/vi/Ea-G_EeiEps/maxresdefault.jpg);
+}
+#image6{
+	background-image: url(https://secure.static.tumblr.com/f431cfdf9e74f10f218c37868cf5fe09/i3cylfa/FtWmvpxnj/tumblr_static_tumblr.jpg);
+}
+@media(max-width: 768px){
+	.image{
+		
+		height: 50vh;
+
+	}
+	.text{
+		min-height: 50vh;
+	}
+}
